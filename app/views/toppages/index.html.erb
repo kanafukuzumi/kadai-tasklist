@@ -1,11 +1,3 @@
-<% if logged_in? %>
- <div>
-  <aside>
-   <%= link_to 'Taskilists', tasks_path %>
-  </aside>
-
- </div>
-<% else %>
  <div>
   <h1>Welcome to the Tasklist</h1>
  </div>
@@ -14,4 +6,3 @@
    <%= link_to 'Sign up now!', signup_path %>
    <%= link_to 'Login',login_path %>
  </div>
-<% end %>

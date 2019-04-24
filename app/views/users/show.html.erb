@@ -1,10 +1,10 @@
 <div>
- <h3><%= @user.name %></h3>
-</div>
-
-<div>
- <ul>
-  <%= link_to 'tasklists',tasks_path %>
-  <%= link_to 'Logout', logout_path, method: :delete %>
- </ul>
+ <aside>
+  <h3><%= @user.name %></h3>
+ </aside>
+ <div>
+  <ul>
+   <%= link_to 'Tasklist',tasks_path %>
+  </ul>
+ </div>
 </div>
