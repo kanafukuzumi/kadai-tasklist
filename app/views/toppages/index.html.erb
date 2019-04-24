@@ -1,5 +1,10 @@
 <% if logged_in? %>
- <p>ログイン完了ユーザ: <%= current_user.name %></p>
+ <div>
+  <aside>
+   <%= link_to 'Taskilists', tasks_path %>
+  </aside>
+
+ </div>
 <% else %>
  <div>
   <h1>Welcome to the Tasklist</h1>
